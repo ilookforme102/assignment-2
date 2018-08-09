@@ -1,0 +1,23 @@
+.header {
+    display: grid;
+    grid-template-columns:  auto auto;
+    grid-gap: 5px;
+    padding: 0 10% 0;
+}
+.header > div {
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+.header-photo {
+    grid-column: 1/2;
+}
+
+.header-des {
+    grid-column: 2/3;
+
+}
+.header-strip {
+    grid-column: 1/3 ;
+}
